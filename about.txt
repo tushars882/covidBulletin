@@ -1,0 +1,5 @@
+*componentDidMount()-> All the AJAX requests and the DOM or state updation should be coded in the componentDidMount() method block. We can also set up all the major subscriptions here but to avoid any performance issues, always remember to unsubscribe them in the componentWillUnmount() method.
+- It executes our react code after then when our component has been rendered . ex- setting timeout for our react code
+
+---------------API used ------------------------
+We have used covid19API for tracking the covid cases along the world
